@@ -1,14 +1,16 @@
 # Gobblin [![Build Status](https://secure.travis-ci.org/linkedin/gobblin.png)](https://travis-ci.org/linkedin/gobblin)
 
-Gobblin is a universal data ingestion framework for extracting, transforming, and loading large volume of data from a variety of data sources, e.g., databases, rest APIs, FTP/SFTP servers, filers, etc., onto Hadoop. Gobblin handles the common routine tasks required for all data ingestion ETLs, including job/task scheduling, task partitioning, error handling, state management, data quality checking, data publishing, etc. Gobblin ingests data from different data sources in the same execution framework, and manages metadata of different sources all in one place. This, combined with other features such as auto scalability, fault tolerance, data quality assurance, extensibility, and the ability of handling data model evolution, makes Gobblin an easy-to-use, self-serving, and efficient data ingestion framework.
+Gobblin 是 Hadoop 通用数据摄取框架，可以从各种数据源中提取，转换和加载海量数据。比如：数据库，rest APIs，filers，等等。Gobblin 处理日常规划任务需要所有数据摄取 ETLs，包括作业/任务规划，任务分配，错误处理，状态管理，数据质量检测，数据发布等等。
 
-## Documentation
+Gobblin 通过同样的执行框架从不同数据源摄取数据，在同一个地方管理所有不同数据源的元数据。同时结合了其他特性，比如自动伸缩，容错，数据质量保证，可扩展和处理数据模型改革等等。Gobblin 变得更容易使用，是个高效的数据摄取框架。.
 
-Check out the Gobblin documentation at [https://github.com/linkedin/gobblin/wiki](https://github.com/linkedin/gobblin/wiki).
+## 文档
+
+从如下链接下载 Gobblin 文档 [https://github.com/linkedin/gobblin/wiki](https://github.com/linkedin/gobblin/wiki).
 
 ## Getting Started
 
-### Building Gobblin
+### 搭建 Gobblin 环境
 
 Download or clone the Gobblin repository (say, into `/path/to/gobblin`) and run the following command:
 
